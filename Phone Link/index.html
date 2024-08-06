@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlk3wzRqoyhjk7Dy-6ZySrMfw6GQ2-wjYIgPtBAMHE14YgHSUcpxXGAEE&s=10">
+  <meta name="title" content="Happy Birthday 🎂">
+<meta name="description" content="Wishing a very Happy Birthday to you 🥳">
+<meta name="keywords" content="Happy Birthday, Dikshant Sable ">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+
+  <title>Happy Birthday 🎂</title>
+  
+  <!-- Custom Styles -->
+  <style>
+/*@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;700&display=swap');
+  
+  *{font-family: 'Poppins', sans-serif;}
+  
+    body,#container{margin: 0;padding: 0;box-sizing: border-box;width: 100vw;height: 100vh;font-size: 1.2rem}
+#container{background: linear-gradient(to bottom, #feedd1 0%, #feed95 100%);
+}
+    #container img{width: 100%;position: absolute;top: 10%; animation: imganinate .8s linear infinite alternate-reverse}
+    @keyframes imganinate{
+      from{transform: translateY(5px)}
+      to{transform: translateY(-5px)}
+    }
+    
+    #box hr{width: 10%;height: 5px;border:1px solid black;border-radius: 4px;background-color: gray}
+    #box{display: block;align-items: center;justify-content: space-evenly;width: 100%;height:50%;text-align: center;background-color: #fafafa;position: absolute;bottom: 0;border: 1px solid black;border-top-left-radius: 40px;border-top-right-radius: 40px;box-shadow: 0 -3px 14px white}
+    
+    #box button{width: 80%;height: 60px;text-decoration: none;color: #FFC01A;background-color: #feedd1;border:2px solid #feed91;border-radius: 5rem;font-size: 2rem;font-weight: 700;box-shadow: 2px 4px gray;position: absolute;left: 10%;margin-top: 50px;animation: shadow-pulse 1s infinite;}
+    
+    @keyframes shadow-pulse{
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1)
+  }
+  100% {
+    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+    transform: scale(1)
+  }
+}
+    
+   /* #box button:hover{color:white;background: linear-gradient(to top left, gray 0%, gray 100%);border: 2px solid dimgray;transform: translate(2px,4px);box-shadow:none}*/
+    #box #sm{
+      text-align: center;
+      color: gray;
+      font-size: .8rem;
+      font-weight: 500;
+      position: absolute;
+      left: 40%;
+      margin-top:120px;
+    }
+    
+  .wish-box{width: 100vw;height: 120vh;margin: 0;padding: 0;box-sizing: border-box;display: none;justify-content: space-between;align-items: center;text-align: center;background: #feedd1}
+.wish-box img{width: 100%;animation: animate 1s linear infinite alternate}
+@keyframes animate{
+  from{transform: scale(1.0)}
+  to{transform: scale(1.05)}
+}
+.ml2 {
+  font-weight: 900;
+  font-size: 3em;
+  color: #FFC01A;
+  text-shadow: 3px 4px purple
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.sidebox{
+  width:10%;
+  padding:8px 0;
+  line-height: 10%;
+  position: absolute;
+  z-index: 1;
+  right: 0;top:30%;
+  color: white;
+  background-color: black;
+  writing-mode: vertical-lr;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  opacity: .1
+}
+
+
+/* Add animation to "page content" */
+.wish-box {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1.5s;
+  animation-name: animatebottom;
+  animation-duration: 1.5s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</head>
+
+<body>
+
+
+<div id="container">
+    <img src="/assets/celebration-illustration.png" alt="image">
+  </div>
+  
+  <div id="box">
+    <hr>
+    <h1 style="font-weight: 500">Hii, 
+    <span id="name1" style="color: #FFC01A;font-weight: 700;text-shadow: 1px 1px black"></span>
+    </h1>
+    <p>Here's Something For You...</p>
+    <button onclick="clicked()">Next ➔</button>
+    <span id="sm">Click Twice</span>
+  </div>
+  
+  <div class="wish-box" id="wish-box">
+    
+    <img src="/assets/Hurfat.com-1-1.gif" alt="" />
+    <br>
+    <h1 class="ml2" id="name2"></h1>
+
+    <br>
+    <img src="/assets/hbdtxt-removebg-preview.png" alt="" style="position: absolute;margin-bottom: 0;left:0"/>
+  <div class="sidebox">
+    <p>Made With 💛 By Dikshant</p>
+  </div>
+  </div>
+  
+  
+  <audio id="myAudio" src="/assets/hbd.mp3" loop="loop"></audio>
+
+
+  <!-- Project -->
+  <script>
+  
+  var name = "Sejal";
+  var p=document.getElementById("name1");
+  var q=document.getElementById("name2");
+  p.innerHTML=name;
+  q.innerHTML=name;
+  
+    // Wrap every letter in a span
+var textWrapper = document.querySelector('.ml2');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml2 .letter',
+    scale: [4,1],
+    opacity: [0,1],
+    translateZ: 0,
+    easing: "easeOutExpo",
+    duration: 950,
+    delay: (el, i) => 70*i
+  }).add({
+    targets: '.ml2',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+
+function clicked(){
+  navigator.vibrate(50);
+    myFunction();
+    playAudio();
+    confetti.start();
+}
+function myFunction() {
+  var a = document.getElementById("container");
+  var b = document.getElementById("box");
+  var x = document.getElementById("wish-box");
+  
+  if (x.style.display === "none") {
+    a.style.display = "none";
+    b.style.display = "none";
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+var x = document.getElementById("myAudio");
+
+function playAudio() {
+  x.play();
+}
+
+  </script>
+  <script src="/assets/confetti.js"></script>
+  <script src="https://www.wpromotions.eu/confetti.min.js"></script>
+</body>
+</html>
